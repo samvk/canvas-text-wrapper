@@ -339,6 +339,6 @@
     }
   }
 
-  export default CanvasTextWrapper;
+  module.exports = CanvasTextWrapper;
 
 })(this);
