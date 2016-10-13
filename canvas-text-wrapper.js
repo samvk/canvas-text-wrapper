@@ -5,6 +5,7 @@
 
     var defaults = {
       font: '18px Arial, sans-serif',
+      color: '#0B0B0B',
       sizeToFill: false,
       maxFontSizeToFill: false,
       lineHeight: 1,
@@ -29,6 +30,7 @@
 
     var context = canvas.getContext('2d');
     context.font = opts.font;
+		context.fillStyle = opts.color;
     context.textBaseline = 'bottom';
 
     var scale = 1;
